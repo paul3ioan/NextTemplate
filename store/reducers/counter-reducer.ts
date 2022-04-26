@@ -7,7 +7,6 @@ const initialState: Ceva = {
   number: 0,
   ceva: 0,
 };
-
 const counterReducer = createReducer(initialState, (builder) => {
   builder.addCase(incrementAction, (state) => ({
     ...state,
