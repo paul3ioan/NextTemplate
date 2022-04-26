@@ -1,0 +1,5 @@
+Download the ganache cli from their website
+Copy truffle-config.js in a new workspace
+Be sure ganache port is the same as in truffle-config.js
+run: truffle migration
+Everything should be setup after that (check ganache CLI for the migration transaction)
