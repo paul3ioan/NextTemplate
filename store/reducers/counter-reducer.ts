@@ -1,9 +1,13 @@
 import { createReducer } from '@reduxjs/toolkit';
-import { Ceva } from 'store/constants';
 
 import { incrementAction } from '../actions/counter-actions';
 
-const initialState: Ceva = {
+type State = {
+  number: number;
+  ceva: number;
+};
+
+const initialState: State = {
   number: 0,
   ceva: 0,
 };
